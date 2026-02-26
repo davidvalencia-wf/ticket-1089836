@@ -8,7 +8,7 @@
         {
         "binding": "DB",
         "database_name": "db",
-        "database_id": "YOUR_D1_DATABASE_ID",
+        "database_id": "1234",
         "migrations_dir": "db/migrations"
         }
     ],
