@@ -110,6 +110,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
 				score,
 				level,
 				powerups_enabled: powerups_enabled,
+				createdAt: new Date().toISOString(),
 			})
 			.returning();
 
